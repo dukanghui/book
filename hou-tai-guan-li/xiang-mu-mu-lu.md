@@ -23,7 +23,7 @@
 │  ├─test                      // 测试用例
 │  ├─index.html                // 模板文件
 │  ├─package.json              // 模块管理文件
-│  ├─README.md                 // 模块管理文件
+│  ├─README.md                 // 项目介绍文件
 ```
 
 
