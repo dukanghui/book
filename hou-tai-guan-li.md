@@ -31,12 +31,23 @@ Vue \(读音 /vjuː/，类似于**view**\) 是一套用于构建用户界面的*
    你可以根据不同平台系统选择你需要的Node.js安装包。
 
 2. 安装vue-cli  
-   如果不确定自己是否安装了node,可以在命令行工具内执行： node -v  \(检查版本\)  
+   如果不确定自己是否安装了node,可以在命令行工具内执行： `node -v`  \(检查版本\)  
    ![](/assets/import.png)  
    vue-cli 全局安装  
    请在终端命令行执行 `npm install -g vue-cli`    // 加-g是安装到全局
 
-3. 初始化项目
+3. 初始化项目  
+   执行命令：` vue init webpack demo`\(你新建的项目名称/文件名称\)  
+   执行之后将会 自动初始化一个文件夹 ：`demo`
+
+4. 启动项目  
+   `cd demo`  
+   `npm install`  
+   `npm run dev`
+
+5. 注意事项
+
+   1. 以上步骤为创建新的vue-cli项目步骤
 
 
 
