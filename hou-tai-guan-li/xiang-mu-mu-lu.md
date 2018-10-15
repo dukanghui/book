@@ -10,7 +10,7 @@
 │  │  ├─assets                   // 静态资源目录
 │  │  ├─components               // 公共组件
 │  │  ├─icons                    // 图标 svg
-│  │  ├─mixins                   // mixin
+│  │  ├─mock                     // 模拟接口数据
 │  │  ├─router                   // 路由文件
 │  │  ├─store                    // vuex 状态管理
 │  │  ├─styles                   // 公共样式
