@@ -51,7 +51,7 @@ vue-cli 全局安装
 * npm install 如安装失败 或者 其他诡异bug， 安装速度过慢的话 采用如下 `npm install --registry=https://registry.npm.taobao.org`
 * npm包管理器，是集成在node中的，所以安装了node也就有了npm,直接输入 npm -v 命令，显示npm的版本信息
 
-6.`github`上优秀开源项目
+6.`github`上优秀开源后台管理项目
 
 * [https://github.com/nmxiaowei/avue](https://github.com/nmxiaowei/avue)
 * [https://github.com/PanJiaChen/vue-element-admin](#)  
