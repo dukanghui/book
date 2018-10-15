@@ -46,7 +46,7 @@ NProgress.js
 
 ### 简介 {#h3-3}
 
-  轻量级的ajax进度条应用，灵感来自Google, YouTube, and Medium。
+    轻量级的ajax进度条应用，灵感来自Google, YouTube, and Medium。
 
 ### 安装 {#h3-4}
 
