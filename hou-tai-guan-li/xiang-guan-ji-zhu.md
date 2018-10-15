@@ -46,19 +46,15 @@ NProgress.js
 
 ### 简介 {#h3-3}
 
-
+  轻量级的ajax进度条应用，灵感来自Google, YouTube, and Medium。
 
 ### 安装 {#h3-4}
 
-```
-    引入[nprogress.js](http://ricostacruz.com/nprogress/nprogress.js)和[nprogress.css](http://ricostacruz.com/nprogress/nprogress.css)到项目中。
-```
+
 
 ### 基本用法 {#h3-5}
 
-```
-    只需要调用start\(\) 和 done\(\)来控制进度条
-```
+
 
 
 
