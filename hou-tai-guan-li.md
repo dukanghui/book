@@ -22,11 +22,17 @@ Vue \(读音 /vjuː/，类似于**view**\) 是一套用于构建用户界面的*
 
 当然首先你的安装`vue`,`node`, `(webpack)`等一些必要的环境
 
-# 安装vue-cli
+# 生成项目
 
 1. 需要安装node环境
-   node下载地址：[https://nodejs.org/en/](https://nodejs.org/en/)
+   node下载地址：推荐下载LTS\(长期支持版本\)版本  
+   [https://nodejs.org/en/](https://nodejs.org/en/)  
+   [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
    你可以根据不同平台系统选择你需要的Node.js安装包。
+
+2. 安装vue-cli
+
+
 
 
 
