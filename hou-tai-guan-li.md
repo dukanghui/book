@@ -53,14 +53,11 @@ vue-cli 全局安装
 
 6.`github`上优秀开源后台管理项目
 
-* https://github.com/nmxiaowei/avue
-* https://github.com/PanJiaChen/vue-element-admin
-* https://github.com/d2-projects/d2-admin
-* github及git使用方式参见 https://dukanghui.github.io/git/   
-
-
-
-
+* [https://github.com/nmxiaowei/avue](https://github.com/nmxiaowei/avue)
+* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+* [https://github.com/d2-projects/d2-admin](https://github.com/d2-projects/d2-admin)
+* https://github.com/lin-xin/vue-manage-system
+* github及git使用方式参见 [https://dukanghui.github.io/git/](https://dukanghui.github.io/git/)   
 
 
 
