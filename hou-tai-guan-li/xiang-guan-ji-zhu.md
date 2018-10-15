@@ -50,5 +50,8 @@ NProgress.js
 
 ### 基本用法 {#h3-5}
 
+        NProgress.start\(\);  
+        NProgress.done\(\);
+
 
 
