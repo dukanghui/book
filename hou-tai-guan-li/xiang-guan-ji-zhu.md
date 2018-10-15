@@ -38,3 +38,11 @@
 
 进度条库是前端中常见的库之一。NProgress.js是一款轻量级的进度条组件，使用简便。本项目中使用Nprogress，用于页面切换时的页面加载进度显示。
 
+官网：[http://ricostacruz.com/nprogress/](#)
+
+NProgress.js
+
+![](/assets/nprogress.png)
+
+
+
