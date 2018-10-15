@@ -1,3 +1,7 @@
+# 项目简介
+
+棱镜测试小程序使用`mpvue`开发
+
 # mpvue介绍
 
 `mpvue`（[github 地址请参见](https://github.com/Meituan-Dianping/mpvue)）是一个使用[Vue.js](https://vuejs.org/)开发小程序的前端框架。框架基于`Vue.js`核心，`mpvue`修改了`Vue.js`的[runtime](http://mpvue.com/mpvue)和[compiler](http://mpvue.com/mpvue-template-compiler)实现，使其可以运行在小程序环境中，从而为小程序开发引入了整套`Vue.js`开发体验。
@@ -21,6 +25,11 @@
   `Vue.js`
   命令行工具 vue-cli 快速初始化项目
 * H5 代码转换编译成小程序目标代码的能力
+
+## 相关文档 {#_5}
+
+* [http://mpvue.com/mpvue/quickstart/](http://mpvue.com/mpvue/quickstart/)
+* [https://www.jianshu.com/p/8f779950bfd9](https://www.jianshu.com/p/8f779950bfd9)
 
 
 
