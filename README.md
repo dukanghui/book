@@ -6,7 +6,7 @@
 
 ·[https://git-scm.com/docs](https://git-scm.com/docs)
 
-·[http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000](https://blog.csdn.net/hk2291976/article/details/51173850)
+·[https://blog.csdn.net/hk2291976/article/details/51173850](https://blog.csdn.net/hk2291976/article/details/51173850)
 
 [http://www.ruanyifeng.com/blog/2014/06/git\_remote.html](http://www.ruanyifeng.com/blog/2014/06/git_remote.html)
 
