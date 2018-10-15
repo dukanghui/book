@@ -11,6 +11,6 @@
 * [棱镜测试后台管理](hou-tai-guan-li.md)
   * [vue-cli配置](hou-tai-guan-li/vue-clipei-zhi.md)
   * [项目目录](hou-tai-guan-li/xiang-mu-mu-lu.md)
-  * 注意事项
+  * [注意事项](hou-tai-guan-li/zhu-yi-shi-xiang.md)
   * [常见问题](hou-tai-guan-li/chang-jian-wen-ti.md)
 
