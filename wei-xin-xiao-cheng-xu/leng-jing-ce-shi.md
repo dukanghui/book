@@ -1,8 +1,6 @@
+                                                                                               ![](/assets/mpvue.jpg)
 
-
-| ![](/assets/mpvue.png) |
-| :---: |
-
+# 介绍 {#_1}
 
 
 
