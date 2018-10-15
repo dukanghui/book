@@ -10,7 +10,7 @@
 
 ---
 
-# scss
+# scss/less
 
 ---
 
