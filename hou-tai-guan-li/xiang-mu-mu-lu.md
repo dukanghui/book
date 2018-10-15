@@ -15,6 +15,7 @@
 │  │  ├─store                    // vuex 状态管理
 │  │  ├─styles                   // 公共样式
 │  │  ├─utils                    // 公共方法
+│  │  ├─vendor                   // 导出文件
 │  │  ├─views                    // 业务页面
 │  │  ├─App.vue                  // 主页面
 │  │  ├─main.js                  // 入口文件
