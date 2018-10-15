@@ -13,4 +13,5 @@
   * [项目目录](hou-tai-guan-li/xiang-mu-mu-lu.md)
   * [注意事项](hou-tai-guan-li/zhu-yi-shi-xiang.md)
   * [常见问题](hou-tai-guan-li/chang-jian-wen-ti.md)
+  * [相关技术](hou-tai-guan-li/xiang-guan-ji-zhu.md)
 
