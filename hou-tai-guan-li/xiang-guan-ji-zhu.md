@@ -42,7 +42,5 @@
 
 NProgress.js
 
-![](/assets/nprogress.png)
-
-
+![](/assets/nprogress.gif)
 
