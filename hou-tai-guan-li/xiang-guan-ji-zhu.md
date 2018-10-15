@@ -46,6 +46,8 @@ NProgress.js
 
 ### 安装 {#h3-4}
 
+引入[nprogress.js](http://ricostacruz.com/nprogress/nprogress.js)和[nprogress.css](http://ricostacruz.com/nprogress/nprogress.css)到项目中。
+
 ### 基本用法 {#h3-5}
 
 
