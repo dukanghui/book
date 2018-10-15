@@ -9,7 +9,6 @@
     * [技术简介](wei-xin-xiao-cheng-xu/leng-jing-ce-shi/ji-zhu-jian-jie.md)
     * [项目目录](wei-xin-xiao-cheng-xu/leng-jing-ce-shi/xiang-mu-mu-lu.md)
 * [棱镜测试后台管理](hou-tai-guan-li.md)
-  * [技术简介](hou-tai-guan-li/ji-zhu-jian-jie.md)
   * [vue-cli配置](hou-tai-guan-li/vue-clipei-zhi.md)
   * [项目目录](hou-tai-guan-li/xiang-mu-mu-lu.md)
   * 注意事项

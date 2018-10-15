@@ -48,7 +48,7 @@ Vue \(读音 /vjuː/，类似于**view**\) 是一套用于构建用户界面的*
 5. 注意事项
 
    1. 以上步骤为创建新的vue-cli项目步骤，如果您手上有完整的**项目文件**或者您对vue-cli有一定了解，可忽略
-   2. npm install 如安装失败 或者 其他诡异bug， 安装速度过慢的话 采用如下
+   2. npm install 如安装失败 或者 其他诡异bug， 安装速度过慢的话 采用如下  
       `npm install --registry=https://registry.npm.taobao.org`
 
    3. npm包管理器，是集成在node中的，所以安装了node也就有了npm,直接输入 npm -v 命令，显示npm的版本信息
