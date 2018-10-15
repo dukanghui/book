@@ -55,5 +55,10 @@ NProgress.js
     NProgress.done();
 ```
 
+### 更多用法 {#h3-8}
+
+* [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)
+* https://www.cnblogs.com/y114113/p/6289629.html  
+
 
 
