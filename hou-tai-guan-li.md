@@ -18,18 +18,15 @@ Vue \(读音 /vjuː/，类似于**view**\) 是一套用于构建用户界面的*
 
 ---
 
-vue-cli 是vue.[js](http://lib.csdn.net/base/javascript)的脚手架，用于自动生成vue.js+webpack的项目模板，分为vue init webpack-simple 项目名 和vue init webpack 项目名 两种。
+`vue-cli` 是`vue.js`的脚手架，用于自动生成`vue.js+webpack`的项目模板，分为vue init webpack-simple 项目名 和vue init webpack 项目名 两种。
 
-当然首先你的安装vue，node \(webpack\)等一些必要的环境
+当然首先你的安装`vue`,`node`, `(webpack)`等一些必要的环境
 
 # 安装vue-cli
 
 1. 需要安装node环境
    node下载地址：[https://nodejs.org/en/](https://nodejs.org/en/)
-
-   
-
-
+   你可以根据不同平台系统选择你需要的Node.js安装包。
 
 
 
