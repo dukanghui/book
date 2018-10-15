@@ -24,34 +24,40 @@ Vue \(读音 /vjuː/，类似于**view**\) 是一套用于构建用户界面的*
 
 # 生成项目
 
-1. 需要安装node环境  
-   node下载地址：推荐下载LTS\(长期支持版本\)版本  
-   [https://nodejs.org/en/](https://nodejs.org/en/)  
-   [https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
-   你可以根据不同平台系统选择你需要的Node.js安装包。
+1.需要安装node环境  
+node下载地址：推荐下载LTS\(长期支持版本\)版本  
+[https://nodejs.org/en/](https://nodejs.org/en/)  
+[https://nodejs.org/en/download/](https://nodejs.org/en/download/)  
+你可以根据不同平台系统选择你需要的Node.js安装包。
 
-2. 安装vue-cli  
-   如果不确定自己是否安装了node,可以在命令行工具内执行： `node -v`  \(检查版本\)  
-   ![](/assets/import.png)  
-   vue-cli 全局安装  
-   请在终端命令行执行 `npm install -g vue-cli`    // 加-g是安装到全局
+2.安装vue-cli  
+如果不确定自己是否安装了node,可以在命令行工具内执行： `node -v`  \(检查版本\)  
+![](/assets/import.png)  
+vue-cli 全局安装  
+请在终端命令行执行 `npm install -g vue-cli`    // 加-g是安装到全局
 
-3. 初始化项目  
-   执行命令：`vue init webpack demo`\(你新建的项目名称/文件名称\)  
-   执行之后将会 自动初始化一个文件夹 ：`demo`
+3.初始化项目  
+执行命令：`vue init webpack demo`\(你新建的项目名称/文件名称\)  
+执行之后将会 自动初始化一个文件夹 ：`demo`
 
-4. 启动项目  
-   `cd demo`  
-   `npm install`  
-   `npm run dev`
+4.启动项目  
+`cd demo`  
+`npm install`  
+`npm run dev`
 
-5. 注意事项
+5.注意事项
 
-   1. 以上步骤为创建新的vue-cli项目步骤，如果您手上有完整的**项目文件**或者您对vue-cli有一定了解，可忽略
-   2. npm install 如安装失败 或者 其他诡异bug， 安装速度过慢的话 采用如下  
-      `npm install --registry=https://registry.npm.taobao.org`
+* 以上步骤为创建新的vue-cli项目步骤，如果您手上有完整的**项目文件**或者您对vue-cli有一定了解，可忽略
+* npm install 如安装失败 或者 其他诡异bug， 安装速度过慢的话 采用如下 `npm install --registry=https://registry.npm.taobao.org`
+* npm包管理器，是集成在node中的，所以安装了node也就有了npm,直接输入 npm -v 命令，显示npm的版本信息
 
-   3. npm包管理器，是集成在node中的，所以安装了node也就有了npm,直接输入 npm -v 命令，显示npm的版本信息
+6.`github`上优秀开源项目
+
+* [https://github.com/nmxiaowei/avue](https://github.com/nmxiaowei/avue)
+* [https://github.com/PanJiaChen/vue-element-admin](#)  
+
+  
+
 
 
 
