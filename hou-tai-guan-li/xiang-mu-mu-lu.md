@@ -21,8 +21,6 @@
 │  │  ├─permission.js          // 监控路由跳转文件
 │  ├─static                    // 部分静态资源CDN及图片
 │  ├─test                      // 测试用例
-
-
 │  ├─index.html                // 模板文件
 │  ├─package.json              // 模块管理文件
 ```
