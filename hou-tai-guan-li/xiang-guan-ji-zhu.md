@@ -140,6 +140,14 @@ import qs from 'qs'
 export function systemLogin (query) {
   return http.post('/login', query)
 }
+/**
+ * 删除轮播图
+ * @param query
+ * @returns {*}
+ */
+export function deleteSowingmapByStatus (query) {
+  return http.put('/sowingmap/deleteSowingmapByStatus', qs.stringify(query))
+}
 ```
 
 # mock.js
