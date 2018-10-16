@@ -40,10 +40,8 @@ const service = axios.create({
 })
 service.interceptors.request.use(
   config => {  // config中携带header用于登录验证及登录状态判断
-    if (store.getters.token) {
-      console.log(getToken())
+    if (store.getters.token) {  
       config.headers['Authorization'] = getToken()
-      // config.headers['Authorization'] = 'mockToken'
     }
     config.headers['Accept'] = '*, *'
     return config
