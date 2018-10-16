@@ -83,7 +83,6 @@ service.interceptors.response.use(response => {
   if (response.data.code && response.data.code !== 200 && response.data.code !== 1) {
     let message = data.msg
     let str = '网络出现波动，请稍后重试'
-
     if (typeof message === 'string') {
       str = message
     }
