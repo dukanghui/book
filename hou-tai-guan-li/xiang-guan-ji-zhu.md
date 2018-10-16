@@ -26,7 +26,7 @@ npm install axios
 <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 ```
 
-### 使用
+### 基本用法
 
 # mock.js
 
