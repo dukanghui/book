@@ -59,6 +59,8 @@ service.interceptors.request.use(
 
 响应拦截，判断响应数据状态码，给出对应提示信息
 
+全局的响应拦截可以避免每个接口中做判断，提高代码复用性
+
 # mock.js
 
 ---
