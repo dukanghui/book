@@ -112,6 +112,36 @@ export default service
 
 全局http请求封装`get、post、put、delete`方法 \(utils文件夹下`http.js`文件\)
 
+```
+import axios from './request'
+const online = {
+  get (url, data) {
+    return axios.get(url, {params: data})
+  },
+  post (url, data) {
+    return axios.post(url, data)
+  },
+  put (url, data) {
+    return axios.put(url, data)
+  },
+  delete (url, data) {
+    return axios.delete(url, {params: data})
+  }
+}
+export default online
+```
+
+接口函数封装 \(src/api文件夹下`index.js`文件\)
+
+```
+import http from '@/utils/http'
+import qs from 'qs'
+
+export function systemLogin (query) {
+  return http.post('/login', query)
+}
+```
+
 # mock.js
 
 ---
