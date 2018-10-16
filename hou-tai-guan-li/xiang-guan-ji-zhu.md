@@ -57,7 +57,7 @@ service.interceptors.request.use(
 )
 ```
 
-响应拦截，判断响应数据状态码
+响应拦截，判断响应数据状态码，给出对应提示信息
 
 # mock.js
 
