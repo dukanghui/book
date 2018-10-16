@@ -48,7 +48,7 @@ vue-cli 全局安装
 5.注意事项
 
 * 以上步骤为创建新的vue-cli项目步骤，如果您手上有完整的**项目文件**或者您对vue-cli有一定了解，可忽略
-* npm install 如安装失败 或者 其他诡异bug， 安装速度过慢的话 采用如下 `npm install --registry=https://registry.npm.taobao.org`
+* npm install 如**安装失败** 或者 其他诡异bug， 安装速度过慢的话 采用如下 `npm install --registry=https://registry.npm.taobao.org`
 * npm包管理器，是集成在node中的，所以安装了node也就有了npm,直接输入 npm -v 命令，显示npm的版本信息
 
 6.`github`上优秀开源后台管理项目
