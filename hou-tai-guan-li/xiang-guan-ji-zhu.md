@@ -133,10 +133,16 @@ export default online
 
 接口函数封装 \(src/api文件夹下`index.js`文件\)
 
+`qs`用于部分`post`接口请求参数封装
+
 ```
 import http from '@/utils/http'
 import qs from 'qs'
-
+/**
+ * 登录
+ * @param query
+ * @returns {*}
+ */
 export function systemLogin (query) {
   return http.post('/login', query)
 }
