@@ -12,7 +12,7 @@ Axios 是一个基于 `promise` 的 HTTP 库，可以用在浏览器和 `node.js
 
 Axios在本项目中的使用：
 
-
+安装
 
 # mock.js
 
