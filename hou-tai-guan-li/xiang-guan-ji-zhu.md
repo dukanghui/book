@@ -143,6 +143,36 @@ export function deleteSowingmapByStatus (query) {
 }
 ```
 
+以获取系统日志为例 `systemLog.vue` 文件
+
+```
+import { querysystemlog } from '@/api/index'
+export default {
+  data () {
+    return {
+      total: 0,
+      pageNum: 1,
+      pageSize: 10,
+      tableData: []
+    }
+  },
+  mounted () {
+    this.getData()
+  },
+  methods: {
+    getData () {
+      querysystemlog({
+        pageNum: this.pageNum,
+        pageSize: this.pageSize
+      }).then(res => {
+        this.tableData = res.data.result
+        this.total = res.data.total
+      })
+    }
+  }
+}
+```
+
 # mock.js
 
 ---
