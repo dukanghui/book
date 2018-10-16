@@ -34,6 +34,10 @@ utils文件夹下request.js
 
 ```
 import axios from 'axios'
+const service = axios.create({
+  baseURL: 'http://testprismcms.gzcollege.com/prismcms',
+  timeout: 5000
+})
 ```
 
 # mock.js
@@ -104,6 +108,7 @@ main.js或对应js文件中引入[nprogress.js](http://ricostacruz.com/nprogress
 
 * [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)
 * [https://www.cnblogs.com/y114113/p/6289629.html](https://www.cnblogs.com/y114113/p/6289629.html)  
+  ###  
 
 
 
