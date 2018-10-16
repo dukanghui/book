@@ -20,7 +20,7 @@ npm install axios
 
 使用 cdn:
 
-&lt;script src="https://unpkg.com/axios/dist/axios.min.js"&gt;&lt;/script&gt;
+    &lt;script src="[https://unpkg.com/axios/dist/axios.min.js"&gt;&lt;/script&gt](https://unpkg.com/axios/dist/axios.min.js"></script&gt);
 
 ### 安装
 
