@@ -87,9 +87,7 @@ service.interceptors.response.use(response => {
     if (typeof message === 'string') {
       str = message
     }
-
     Message.closeAll()
-
     Message({
       message: str,
       type: 'warning',
