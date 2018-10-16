@@ -35,7 +35,7 @@ utils文件夹下request.js
 ```
 import axios from 'axios'  // 引入
 const service = axios.create({
-  baseURL: 'http://testprismcms.gzcollege.com/prismcms',
+  baseURL: 'http://domain.name.com/project',
   timeout: 5000
 })
 service.interceptors.request.use(
