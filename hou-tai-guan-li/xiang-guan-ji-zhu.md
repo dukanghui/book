@@ -39,7 +39,7 @@ const service = axios.create({
   timeout: 5000
 })
 service.interceptors.request.use(
-  config => {
+  config => {  // config中携带header用于登录验证及登录状态判断
     if (store.getters.token) {
       console.log(getToken())
       config.headers['Authorization'] = getToken()
