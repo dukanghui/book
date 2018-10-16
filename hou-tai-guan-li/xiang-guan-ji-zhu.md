@@ -72,6 +72,12 @@ NProgress.js
 
 ### 安装 {#h3-4}
 
+使用 npm:
+
+```
+npm install nprogress
+```
+
 main.js或对应js文件中引入[nprogress.js](http://ricostacruz.com/nprogress/nprogress.js)和[nprogress.css](http://ricostacruz.com/nprogress/nprogress.css)到项目中。
 
 ```
