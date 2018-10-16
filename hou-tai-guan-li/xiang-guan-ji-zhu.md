@@ -38,9 +38,14 @@ const service = axios.create({
   baseURL: 'http://domain.name.com/project',   // 后台接口域名
   timeout: 5000
 })
+```
+
+请求拦截，设置每个请求头携带headers用于登录验证及登录状态判断
+
+```
 service.interceptors.request.use(
-  config => {  // config中携带header用于登录验证及登录状态判断
-    if (store.getters.token) {  
+  config => {
+    if (store.getters.token) {
       config.headers['Authorization'] = getToken()
     }
     config.headers['Accept'] = '*, *'
@@ -51,6 +56,8 @@ service.interceptors.request.use(
   }
 )
 ```
+
+相应拦截，判断相应数据状态码
 
 # mock.js
 
