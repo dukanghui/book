@@ -93,7 +93,6 @@ service.interceptors.response.use(response => {
       type: 'warning',
       duration: 1200
     })
-    // return Promise.reject(message)
   }
   return data
 }, error => {
