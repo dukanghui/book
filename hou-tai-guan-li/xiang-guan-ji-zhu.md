@@ -64,8 +64,6 @@ service.interceptors.request.use(
 ```
 service.interceptors.response.use(response => {
   let data = response.data
-  // console.log(response.config.url, data)
-
   // 处理接口数据格式不正确
   if (response.config.direct) {
     return data
