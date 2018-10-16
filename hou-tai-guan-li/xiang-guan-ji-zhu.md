@@ -8,7 +8,9 @@
 
 Axios 是一个基于 `promise` 的 HTTP 库，可以用在浏览器和 `node.js` 中。
 
-使用说明：https://www.kancloud.cn/yunye/axios/234845
+使用说明：[https://www.kancloud.cn/yunye/axios/234845](https://www.kancloud.cn/yunye/axios/234845)
+
+Axios与 ajax 区别点：
 
 # mock.js
 
