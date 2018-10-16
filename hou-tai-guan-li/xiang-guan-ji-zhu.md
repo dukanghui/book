@@ -96,7 +96,6 @@ service.interceptors.response.use(response => {
   }
   return data
 }, error => {
-  console.log('error is :' + error)
   Message({
     message: error.message,
     type: 'error',
