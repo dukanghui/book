@@ -110,6 +110,8 @@ service.interceptors.response.use(response => {
 export default service
 ```
 
+全局http请求封装`get、post、put、delete`方法 \(utils文件夹下`http.js`文件\)
+
 # mock.js
 
 ---
