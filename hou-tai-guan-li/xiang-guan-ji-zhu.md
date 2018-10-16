@@ -33,7 +33,7 @@ npm install axios
 utils文件夹下request.js
 
 ```
-import axios from 'axios'
+import axios from 'axios'  // 引入
 const service = axios.create({
   baseURL: 'http://testprismcms.gzcollege.com/prismcms',
   timeout: 5000
