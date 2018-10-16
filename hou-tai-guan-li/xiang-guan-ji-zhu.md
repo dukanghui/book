@@ -38,6 +38,21 @@ const service = axios.create({
   baseURL: 'http://testprismcms.gzcollege.com/prismcms',
   timeout: 5000
 })
+service.interceptors.request.use(
+  config => {
+    if (store.getters.token) {
+      console.log(getToken())
+      config.headers['Authorization'] = getToken()
+      // config.headers['Authorization'] = 'mockToken'
+    }
+    config.headers['Accept'] = '*, *'
+    return config
+  },
+  error => {
+    console.log(error) // for debug
+    Promise.reject(error)
+  }
+)
 ```
 
 # mock.js
@@ -108,7 +123,7 @@ main.js或对应js文件中引入[nprogress.js](http://ricostacruz.com/nprogress
 
 * [https://github.com/rstacruz/nprogress](https://github.com/rstacruz/nprogress)
 * [https://www.cnblogs.com/y114113/p/6289629.html](https://www.cnblogs.com/y114113/p/6289629.html)  
-  ###  
+  ### 
 
 
 
