@@ -61,6 +61,57 @@ service.interceptors.request.use(
 
 全局的响应拦截可以避免每个接口中做判断，提高代码复用性
 
+```
+service.interceptors.response.use(response => {
+  let data = response.data
+  // console.log(response.config.url, data)
+
+  // 处理接口数据格式不正确
+  if (response.config.direct) {
+    return data
+  }
+  if (response.data.code === 401) {
+    MessageBox.confirm('你已被登出，可以取消继续留在该页面，或者重新登录', '确定登出', {
+      confirmButtonText: '重新登录',
+      cancelButtonText: '取消',
+      type: 'warning'
+    }).then(() => {
+      store.dispatch('FedLogOut').then(() => {
+        location.reload()
+      })
+    })
+  }
+  // 判断错误信息
+  if (response.data.code && response.data.code !== 200 && response.data.code !== 1) {
+    let message = data.msg
+    let str = '网络出现波动，请稍后重试'
+
+    if (typeof message === 'string') {
+      str = message
+    }
+
+    Message.closeAll()
+
+    Message({
+      message: str,
+      type: 'warning',
+      duration: 1200
+    })
+    // return Promise.reject(message)
+  }
+  return data
+}, error => {
+  console.log('error is :' + error)
+  Message({
+    message: error.message,
+    type: 'error',
+    duration: 1000
+  })
+  return Promise.reject(error)
+})
+export default service
+```
+
 # mock.js
 
 ---
