@@ -28,11 +28,13 @@ npm install axios
 
 ### 基本用法
 
-下面介绍axios在本项目中的使用方式，\(若您有更方便合适的使用方式，请自行取舍\)
+下面介绍axios在本项目中的使用方式
 
 utils文件夹下request.js
 
-    import axios from 'axios'
+```
+import axios from 'axios'
+```
 
 # mock.js
 
