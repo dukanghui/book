@@ -138,19 +138,11 @@ export default online
 ```
 import http from '@/utils/http'
 import qs from 'qs'
-/**
- * 登录
- * @param query
- * @returns {*}
- */
+
 export function systemLogin (query) {
   return http.post('/login', query)
 }
-/**
- * 删除轮播图
- * @param query
- * @returns {*}
- */
+
 export function deleteSowingmapByStatus (query) {
   return http.put('/sowingmap/deleteSowingmapByStatus', qs.stringify(query))
 }
