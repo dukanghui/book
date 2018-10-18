@@ -431,7 +431,23 @@ Vue.use(Element)
 ```
 
 ```
-<i class="iconfont icon-right"><i>
+
+<template>
+  <div id="app">
+    // 示例
+    <i class="iconfont icon-right"><i>
+
+    <router-view/>
+  </div>
+</template>
+<script>
+export default {
+  name: 'App'
+}
+</script>
+<style>
+  @import './styles/iconfont/iconfont.css';
+</style>
 ```
 
 # Nprogress
