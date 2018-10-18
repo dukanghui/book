@@ -427,7 +427,7 @@ Vue.use(Element)
 │  │  │  ├─iconfont.svg
 │  │  │  ├─iconfont.ttf 
 │  │  │  ├─iconfont.woff 
-│  ├─amain.js
+│  ├─App.vue
 ```
 
 ```
