@@ -237,8 +237,7 @@ export default {
     data: {
       pageIndex: 1,
       total: result.length,
-      result: result,
-      other: List
+      result: result
     }
   })
 }
