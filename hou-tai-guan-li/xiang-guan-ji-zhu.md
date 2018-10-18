@@ -418,6 +418,19 @@ Vue.use(Element)
 项目中引入iconfont.css
 
 ```
+├─src
+│  ├─styles   
+│  │  ├─iconfont
+│  │  │  ├─iconfont.css  
+│  │  │  ├─iconfont.eot
+│  │  │  ├─iconfont.jss 
+│  │  │  ├─iconfont.svg
+│  │  │  ├─iconfont.ttf 
+│  │  │  ├─iconfont.woff 
+│  ├─main.js
+```
+
+```
 <i class="iconfont icon-right"><i>
 ```
 
