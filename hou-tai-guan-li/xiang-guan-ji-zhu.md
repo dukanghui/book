@@ -198,11 +198,10 @@ tips：推荐使用箭头函数，使代码更加简洁
 npm install mock.js
 ```
 
-main.js或对应js文件中引入[m](http://ricostacruz.com/nprogress/nprogress.js)ock.js到项目中。
+main.js或对应js文件中引入`mock.js`到项目中。
 
 ```
-    import NProgress from 'nprogress'  
-    import 'nprogress/nprogress.css'
+    import Mock from 'mockjs'
 ```
 
 ### 基本用法 {#h3-5}
