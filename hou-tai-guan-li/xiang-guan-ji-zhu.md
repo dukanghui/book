@@ -349,6 +349,13 @@ export default store
 
 store/getters.js用于获取vuex中的数据，也可以用this.$store.state.obj来获取
 
+```
+const getters = {
+  token: state => state.user.token
+}
+export default getters
+```
+
 # scss/less
 
 ---
