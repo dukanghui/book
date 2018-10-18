@@ -217,6 +217,7 @@ import './mock'
 ### 基本用法 {#h3-5}
 
 ```
+// mock/index.js
 import Mock from 'mockjs'
 import mainAPI from './main'
 Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
@@ -224,6 +225,7 @@ export default Mock
 ```
 
 ```
+// mock/main.js
 import Mock from 'mockjs'
 const result = []
 for (let i = 0; i < 10; i++) {
