@@ -202,13 +202,14 @@ main.js或对应js文件中引入`mock.js`到项目中。
 
 ```
 import Mock from 'mockjs'
+Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
 ```
 
 ### 基本用法 {#h3-5}
 
 ```
-    NProgress.start(); 
-    NProgress.done();
+import mainAPI from './main'
+Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
 ```
 
 ### 更多用法 {#h3-8}
