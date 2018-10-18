@@ -36,7 +36,7 @@ npm install axios
 │  │ ├─index.js    
 │  ├─utils
 │  │ ├─index.js     
-│  │ ├─index.js     
+│  │ ├─request.js     
 │  ├─main.js
 ```
 
