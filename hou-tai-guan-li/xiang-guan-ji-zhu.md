@@ -198,11 +198,10 @@ tips：推荐使用箭头函数，使代码更加简洁
 npm install mock.js
 ```
 
-main.js或对应js文件中引入`mock.js`到项目中。
+新建mock文件夹并在main.js中引入。
 
 ```
-import Mock from 'mockjs'
-Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
+import './mock'
 ```
 
 ### 基本用法 {#h3-5}
