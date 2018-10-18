@@ -302,6 +302,18 @@ npm install vuex
 
 ### 基本用法 {#h3-5}
 
+目录
+
+```
+├─src
+│  ├─store   
+│  │  ├─modules
+│  │  │  ├─user.js               
+│  │  ├─getters.js   
+│  │  ├─index.js       
+│  ├─main.js
+```
+
 # scss/less
 
 ---
