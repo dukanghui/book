@@ -203,11 +203,11 @@ npm install mock.js
 目录
 
 ```
-├─admin
-│  ├─build                     // vue-cli 配置
-│  ├─config                    // vue-cli 配置文件
-│  ├─dist                      // 打包后的文件
-│  ├─src                       // 源代码
+├─src
+│  ├─mock                     
+│  │  ├─index.js   
+│  │  ├─main.js       
+│  ├─main.js         
 ```
 
 ```
