@@ -356,6 +356,8 @@ const getters = {
 export default getters
 ```
 
+tips：vuex中的数据刷新页面会丢失
+
 # scss/less
 
 ---
