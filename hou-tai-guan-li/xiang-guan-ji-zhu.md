@@ -198,8 +198,6 @@ tips：推荐使用箭头函数，使代码更加简洁
 npm install mock.js
 ```
 
-新建mock文件夹并在main.js中引入。
-
 目录
 
 ```
@@ -207,8 +205,10 @@ npm install mock.js
 │  ├─mock                     
 │  │  ├─index.js   
 │  │  ├─main.js       
-│  ├─main.js         
+│  ├─main.js
 ```
+
+新建mock文件夹并在main.js中引入。
 
 ```
 import './mock'
