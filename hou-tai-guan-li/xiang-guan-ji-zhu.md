@@ -232,6 +232,16 @@ for (let i = 0; i < 10; i++) {
     'handle|1': ['登录', '修改结果', '添加轮播图']
   }))
 }
+export default {
+  getSystemLog: () => ({
+    data: {
+      pageIndex: 1,
+      total: result.length,
+      result: result,
+      other: List
+    }
+  }),
+}
 ```
 
 ### 更多用法 {#h3-8}
