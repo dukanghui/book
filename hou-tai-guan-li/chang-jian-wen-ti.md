@@ -12,7 +12,7 @@ build对象需改为：
 assetsPublicPath: './'
 ```
 
-# 
+# 语法检查
 
 
 
