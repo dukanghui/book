@@ -358,6 +358,8 @@ export default getters
 
 tips：vuex中的数据刷新页面会丢失，可以配合cookie或者localstorage/sessionstorage来使用
 
+本项目中使用vuex配合js-cookie存储token
+
 # scss/less
 
 ---
