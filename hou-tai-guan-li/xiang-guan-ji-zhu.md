@@ -314,6 +314,19 @@ npm install vuex
 │  ├─main.js
 ```
 
+main.js引入
+
+```
+import store from './store'
+new Vue({
+  el: '#app',
+  router,
+  store,
+  components: { App },
+  template: '<App/>'
+})
+```
+
 # scss/less
 
 ---
