@@ -64,8 +64,6 @@ service.interceptors.request.use(
 ```
 service.interceptors.response.use(response => {
   let data = response.data
-  // console.log(response.config.url, data)
-
   // 处理接口数据格式不正确
   if (response.config.direct) {
     return data
@@ -85,23 +83,18 @@ service.interceptors.response.use(response => {
   if (response.data.code && response.data.code !== 200 && response.data.code !== 1) {
     let message = data.msg
     let str = '网络出现波动，请稍后重试'
-
     if (typeof message === 'string') {
       str = message
     }
-
     Message.closeAll()
-
     Message({
       message: str,
       type: 'warning',
       duration: 1200
     })
-    // return Promise.reject(message)
   }
   return data
 }, error => {
-  console.log('error is :' + error)
   Message({
     message: error.message,
     type: 'error',
@@ -112,9 +105,114 @@ service.interceptors.response.use(response => {
 export default service
 ```
 
+全局http请求封装`get、post、put、delete`方法 \(utils文件夹下`http.js`文件\)
+
+```
+import axios from './request'
+const online = {
+  get (url, data) {
+    return axios.get(url, {params: data})
+  },
+  post (url, data) {
+    return axios.post(url, data)
+  },
+  put (url, data) {
+    return axios.put(url, data)
+  },
+  delete (url, data) {
+    return axios.delete(url, {params: data})
+  }
+}
+export default online
+```
+
+接口函数封装 \(src/api文件夹下`index.js`文件\)
+
+`qs`用于部分`post`接口请求参数封装
+
+```
+import http from '@/utils/http'
+import qs from 'qs'
+
+export function systemLogin (query) {
+  return http.post('/login', query)
+}
+
+export function deleteSowingmapByStatus (query) {
+  return http.put('/sowingmap/deleteSowingmapByStatus', qs.stringify(query))
+}
+```
+
+以获取系统日志为例 `systemLog.vue` 文件
+
+```
+import { querysystemlog } from '@/api/index'
+export default {
+  data () {
+    return {
+      total: 0,
+      pageNum: 1,
+      pageSize: 10,
+      tableData: []
+    }
+  },
+  mounted () {
+    this.getData()
+  },
+  methods: {
+    getData () {
+      querysystemlog({
+        pageNum: this.pageNum,
+        pageSize: this.pageSize
+      }).then(res => {
+        this.tableData = res.data.result
+        this.total = res.data.total
+      })
+    }
+  }
+}
+```
+
+tips：推荐使用箭头函数，使代码更加简洁
+
 # mock.js
 
 ---
+
+### 简介
+
+生成随机数据，拦截 Ajax 请求
+
+* **前后端分离** 让前端攻城师独立于后端进行开发。
+* **增加单元测试的真实性** 通过随机数据，模拟各种场景。
+* **开发无侵入** 不需要修改既有代码，就可以拦截 Ajax 请求，返回模拟的响应数据。
+* **用法简单** 符合直觉的接口。
+* **数据类型丰富** 支持生成随机的文本、数字、布尔值、日期、邮箱、链接、图片、颜色等。
+* **方便扩展** 支持支持扩展更多数据类型，支持自定义函数和正则。
+
+### 安装 {#h3-4}
+
+使用 npm:
+
+```
+npm install mock.js
+```
+
+main.js或对应js文件中引入[m](http://ricostacruz.com/nprogress/nprogress.js)ock.js到项目中。
+
+```
+    import NProgress from 'nprogress'  
+    import 'nprogress/nprogress.css'
+```
+
+### 基本用法 {#h3-5}
+
+```
+    NProgress.start(); 
+    NProgress.done();
+```
+
+### 更多用法 {#h3-8}
 
 # vuex
 
