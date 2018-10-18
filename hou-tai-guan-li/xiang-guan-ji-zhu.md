@@ -431,7 +431,6 @@ Vue.use(Element)
 ```
 
 ```
-
 <template>
   <div id="app">
     // 示例
@@ -449,6 +448,8 @@ export default {
   @import './styles/iconfont/iconfont.css';
 </style>
 ```
+
+tips: 可以通过给i标签的style设置color和font-size控制图标颜色和大小
 
 # Nprogress
 
