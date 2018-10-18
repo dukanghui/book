@@ -201,7 +201,7 @@ npm install mock.js
 main.js或对应js文件中引入`mock.js`到项目中。
 
 ```
-    import Mock from 'mockjs'
+import Mock from 'mockjs'
 ```
 
 ### 基本用法 {#h3-5}
