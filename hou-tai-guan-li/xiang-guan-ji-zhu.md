@@ -240,7 +240,7 @@ export default {
       result: result,
       other: List
     }
-  }),
+  })
 }
 ```
 
