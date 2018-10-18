@@ -208,7 +208,8 @@ Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
 ### 基本用法 {#h3-5}
 
 ```
-import mainAPI from './main'Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
+import mainAPI from './main'
+Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
 export default Mock
 ```
 
