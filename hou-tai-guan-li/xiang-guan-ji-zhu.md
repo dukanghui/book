@@ -376,7 +376,25 @@ Sass 是一款强化 CSS 的辅助工具，它在 CSS 语法的基础上增加�
 
 element-ui是饿了么前端团队推出的一款桌面端的UI框架，配合vue使用能够大大加快后台管理系统的开发速度。
 
-官网：http://element-cn.eleme.io/\#/zh-CN/component/installation
+官网：[http://element-cn.eleme.io/\#/zh-CN/component/installation](http://element-cn.eleme.io/#/zh-CN/component/installation)
+
+## 安装 {#an-zhuang}
+
+### npm 安装 {#npm-an-zhuang}
+
+推荐使用 npm 的方式安装，它能更好地和[webpack](https://webpack.js.org/)打包工具配合使用。
+
+```
+npm i element-ui -S
+```
+
+### 基本用法 {#h3-5}
+
+```
+import Element from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(Element)
+```
 
 # iconfont
 
