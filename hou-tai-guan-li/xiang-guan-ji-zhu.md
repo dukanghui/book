@@ -209,6 +209,7 @@ Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
 
 ```
 import mainAPI from './main'
+import mainAPI from './main'
 Mock.mock(/\/getSystemLog/, 'get', mainAPI.getSystemLog)
 export default Mock
 ```
