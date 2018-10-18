@@ -208,7 +208,7 @@ npm install mock.js
 │  ├─main.js
 ```
 
-新建mock文件夹并在src/main.js中引入。
+新建mock文件夹及对应js文件并在src/main.js中引入。
 
 ```
 import './mock'
