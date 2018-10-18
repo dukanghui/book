@@ -190,6 +190,30 @@ tips：推荐使用箭头函数，使代码更加简洁
 * **数据类型丰富** 支持生成随机的文本、数字、布尔值、日期、邮箱、链接、图片、颜色等。
 * **方便扩展** 支持支持扩展更多数据类型，支持自定义函数和正则。
 
+### 安装 {#h3-4}
+
+使用 npm:
+
+```
+npm install mock.js
+```
+
+main.js或对应js文件中引入[m](http://ricostacruz.com/nprogress/nprogress.js)ock.js到项目中。
+
+```
+    import NProgress from 'nprogress'  
+    import 'nprogress/nprogress.css'
+```
+
+### 基本用法 {#h3-5}
+
+```
+    NProgress.start(); 
+    NProgress.done();
+```
+
+### 更多用法 {#h3-8}
+
 # vuex
 
 ---
