@@ -364,7 +364,9 @@ tips：vuex中的数据刷新页面会丢失，可以配合cookie或者localstor
 
 ---
 
-当项目中有引用scss文件，npm run dev 可能会出错
+当项目中有引用scss文件，npm run dev 可能会出错，需要先下载引入sass
+
+`npm install node-sass sass-loader --save-dev --registry=https://registry.npm.taobao.org`
 
 # Element-ui
 
