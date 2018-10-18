@@ -417,7 +417,9 @@ Vue.use(Element)
 
 项目中引入iconfont.css
 
-    i
+```
+<i class="iconfont icon-right"><i>
+```
 
 # Nprogress
 
