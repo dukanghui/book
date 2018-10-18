@@ -36,7 +36,7 @@ npm install axios
 │  │ ├─index.js    
 │  ├─utils
 │  │ ├─index.js     
-│  │ ├─request.js 
+│  │ ├─request.js
 ```
 
 utils文件夹下request.js
