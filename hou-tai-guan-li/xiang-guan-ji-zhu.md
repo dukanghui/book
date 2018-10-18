@@ -200,6 +200,16 @@ npm install mock.js
 
 新建mock文件夹并在main.js中引入。
 
+目录
+
+```
+├─admin
+│  ├─build                     // vue-cli 配置
+│  ├─config                    // vue-cli 配置文件
+│  ├─dist                      // 打包后的文件
+│  ├─src                       // 源代码
+```
+
 ```
 import './mock'
 ```
