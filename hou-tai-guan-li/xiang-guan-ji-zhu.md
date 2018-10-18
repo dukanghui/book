@@ -255,7 +255,11 @@ export default {
 }
 ```
 
-### 更多用法 {#h3-8}
+##### tips
+
+mock.js常用场景为后台接口不存在或者需等待
+
+当不需要mock.js时，需注释src/main.js中的导入代码
 
 # vuex
 
