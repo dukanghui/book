@@ -24,9 +24,12 @@
 
 这样就建立了简单的第一个小程序
 
-
-
 ![](/assets/2018-10-18_195352.png)
+
+## 相关文档 {#_5}
+
+* [https://developers.weixin.qq.com/miniprogram/dev/component/](https://developers.weixin.qq.com/miniprogram/dev/component/)
+* [https://developers.weixin.qq.com/miniprogram/dev/](https://developers.weixin.qq.com/miniprogram/dev/)
 
 
 
