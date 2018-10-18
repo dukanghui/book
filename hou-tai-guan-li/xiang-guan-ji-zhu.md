@@ -30,6 +30,16 @@ npm install axios
 
 下面介绍axios在本项目中的使用方式
 
+```
+├─src
+│  ├─api                    
+│  │ ├─index.js    
+│  ├─utils
+│  │ ├─index.js     
+│  │ ├─index.js     
+│  ├─main.js
+```
+
 utils文件夹下request.js
 
 ```
