@@ -227,21 +227,12 @@ for (let i = 0; i < 10; i++) {
     image_uri,
     parentAlgoName: '@integer(1, 3)',
     childAlgoName: '@integer(1, 2)',
-    resultList: [
-      {id: 1, name: '研究型', maxScore: 69, minScore: 20, intro: 'this is a intro1'},
-      {id: 1, name: '艺术型', maxScore: 96, minScore: 23, intro: 'this is a intro11'},
-      {id: 1, name: '传统型', maxScore: 89, minScore: 45, intro: 'this is a intro22'},
-      {id: 1, name: '社会型', maxScore: 88, minScore: 13, intro: 'this is a intro12'},
-      {id: 1, name: '企业型', maxScore: 78, minScore: 16, intro: 'this is a intro123'},
-      {id: 1, name: '现实型', maxScore: 70, minScore: 28, intro: 'this is a intro321'}],
     userName: 'superadmin',
     createTime: '@datetime',
     'handle|1': ['登录', '修改结果', '添加轮播图']
   }))
 }
 ```
-
-
 
 ### 更多用法 {#h3-8}
 
