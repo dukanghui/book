@@ -364,6 +364,8 @@ tips：vuex中的数据刷新页面会丢失，可以配合cookie或者localstor
 
 ---
 
+Sass 是一款强化 CSS 的辅助工具，它在 CSS 语法的基础上增加了变量 \(variables\)、嵌套 \(nested rules\)、混合 \(mixins\)、导入 \(inline imports\) 等高级功能，这些拓展令 CSS 更加强大与优雅。使用 Sass 以及 Sass 的样式库（如[Compass](http://compass-style.org/)）有助于更好地组织管理样式文件，以及更高效地开发项目。
+
 当项目中有引用scss文件，npm run dev 可能会出错，需要先下载引入sass
 
 `npm install node-sass sass-loader --save-dev --registry=https://registry.npm.taobao.org`
