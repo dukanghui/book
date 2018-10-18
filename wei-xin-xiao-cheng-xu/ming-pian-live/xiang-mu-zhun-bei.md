@@ -8,3 +8,27 @@
 
 打开[https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=18101520](https://developers.weixin.qq.com/miniprogram/dev/devtools/download.html?t=18101520)根据自己系统下载安装
 
+
+
+# 安装开发工具
+
+1, 新建一个空文件
+
+2，打开开发者工具，选择刚建的空白文件
+
+3，输入AppID
+
+4，填写小程序名称
+
+5，选择建立快速普通启动模板
+
+
+
+![](/assets/2018-10-18_192834.png)
+
+
+
+
+
+
+
