@@ -411,11 +411,11 @@ Vue.use(Element)
 
 登录iconfont官网：[http://www.iconfont.cn/](http://www.iconfont.cn/)
 
-选择图标，添加入库
+1. 选择图标，添加入库
+2. 添加至项目\(没有项目可以先创建项目\)
+3. 图标管理-我的项目-下载到本地
 
-添加至项目\(没有项目可以先创建项目\)
-
-
+项目中引入iconfont.css
 
 # Nprogress
 
