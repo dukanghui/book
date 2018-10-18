@@ -400,13 +400,7 @@ Vue.use(Element)
 
 ---
 
-# Eslint
-
----
-
-# js-cookie
-
----
+# 
 
 # Nprogress
 
