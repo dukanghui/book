@@ -1,17 +1,3 @@
-
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
-# 
-
 # 申请账号
 
 点击[https://mp.weixin.qq.com/wxopen/waregister?action=step1](/ https://mp.weixin.qq.com/wxopen/waregister?action=step1)根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。![](/assets/1539823971%281%29.png)登录[https://mp.weixin.qq.com](https://mp.weixin.qq.com)，我们可以在菜单 “设置”-“开发设置” 看到小程序的**AppID和AppSecret**了 。
@@ -162,6 +148,26 @@ Page({
 ```
 
 更多关于页面注册：
+
+[https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html)
+
+### 组件
+
+小程序提供了丰富的基础组件给开发者，开发者可以像搭积木一样，组合各种组件拼合成自己的小程序。
+
+组件参考：
+
+[https://developers.weixin.qq.com/miniprogram/dev/component/](https://developers.weixin.qq.com/miniprogram/dev/component/)
+
+### API
+
+为了让开发者可以很方便的调起微信提供的能力，例如获取用户信息、微信支付等等，小程序提供了很多 API 给开发者去使用。
+
+API参考：
+
+[https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/api.html](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/api.html)
+
+[https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html](https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html)
 
 ## 相关文档 {#_5}
 
