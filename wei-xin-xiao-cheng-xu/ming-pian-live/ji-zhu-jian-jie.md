@@ -129,7 +129,7 @@ App({                               // 小程序实列
 
 ### 获取用户信息wx.getUserInfo
 
-##### 1,直接在小程序JS调用
+##### 直接在小程序JS调用（只能获取已经授权过的用户信息，没有授过权就跳过）
 
 ```
 wx.getUserInfo({
@@ -146,6 +146,16 @@ rawData:
 "{"nickName":"😂😂😂😂😂😂😂😂","gender":1,"language":"zh_CN","city":"Fangshan","province":"Beijing","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL50AV50HChZskh80HxCDBNS0WiaBx3MibBFE19fBvkVhEiapJSFiagpibXlr9dlnLCtGjbhv31BVMuRUg/132"}"
 signature:"abeadd633f84ba29c8d461fe95ef67993820931f"
 userInfo:{nickName: "😂😂😂😂😂😂😂😂", gender: 1, language: "zh_CN", city: "Fangshan", province: "Beijing", …}
+```
+
+### 用户信息授权确认button组件
+
+需要在wxml页面里写
+
+```
+<button class='btn' open-type="getUserInfo" bindgetuserinfo='addcards'>制作我的名片</button>
+// open-type = "getUserInfo" bindgetuserinfo 只能用这个方法才有返回值 bindtap等等不能获取
+这两个是必须的
 ```
 
 
