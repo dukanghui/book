@@ -225,5 +225,15 @@ wx.navigateTo({
 })
 ```
 
+##### 5,wx.navigateBack\({url: ""}\)
+
+关闭当前页面，返回上一页面或多级页面。可通过[getCurrentPages\(\)](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/route.html#getcurrentpages)获取当前的页面栈，决定需要返回几层。
+
+```
+wx.navigateBack({
+    delta: 2           // delta必须是整数 后退几个页面
+})
+```
+
 
 
