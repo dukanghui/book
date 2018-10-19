@@ -125,5 +125,19 @@ App({                               // 小程序实列
 }
 ```
 
+# 用到的API整理
+
+### 获取用户信息wx.getUserInfo
+
+##### 1,直接在小程序JS调用
+
+```
+wx.getUserInfo({
+            success: function(res) {
+              that.globalData.userImage = res.userInfo.avatarUrl
+            }
+          })
+```
+
 
 
