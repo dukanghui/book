@@ -76,52 +76,52 @@ App({                               // 小程序实列
 
 ```
 {
-	"description": "项目配置文件。",
-	"packOptions": {
-		"ignore": []
-	},
-	"setting": {
-		"urlCheck": true,
-		"es6": true,
-		"postcss": true,
-		"minified": true,
-		"newFeature": true
-	},
-	"compileType": "miniprogram",
-	"libVersion": "2.2.3",
-	"appid": "wxfc199cc3814a06ec",
-	"projectname": "%E5%90%8D%E7%89%87Live",
-	"isGameTourist": false,
-	"condition": {
-		"search": {
-			"current": -1,
-			"list": []
-		},
-		"conversation": {
-			"current": -1,
-			"list": []
-		},
-		"plugin": {
-			"current": -1,
-			"list": []
-		},
-		"game": {
-			"currentL": -1,
-			"list": []
-		},
-		"miniprogram": {
-			"current": 0,
-			"list": [
-				{
-					"id": 0,
-					"name": "peerscards",
-					"pathName": "pages/company/company",
-					"query": "othercardid=76",
-					"scene": "1001"
-				}
-			]
-		}
-	}
+    "description": "项目配置文件。",
+    "packOptions": {                                  // 打包项目配置项
+        "ignore": []
+    },
+    "setting": {                                      // 项目配置
+        "urlCheck": true,                             // 检查安全域名和 TLS 版本(打开的时候会验证服务器名是否可用，本地调试可以关)
+        "es6": true,                                  // 启用es6 转 es5
+        "postcss": true,                              // 上传代码时样式自动补全
+        "minified": true,                             // 上传代码时自动压缩
+        "newFeature": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "2.2.3",
+    "appid": "wxfc199cc3814a06ec",
+    "projectname": "%E5%90%8D%E7%89%87Live",
+    "isGameTourist": false,
+    "condition": {
+        "search": {
+            "current": -1,
+            "list": []
+        },
+        "conversation": {
+            "current": -1,
+            "list": []
+        },
+        "plugin": {
+            "current": -1,
+            "list": []
+        },
+        "game": {
+            "currentL": -1,
+            "list": []
+        },
+        "miniprogram": {
+            "current": 0,
+            "list": [
+                {
+                    "id": 0,
+                    "name": "peerscards",
+                    "pathName": "pages/company/company",
+                    "query": "othercardid=76",
+                    "scene": "1001"
+                }
+            ]
+        }
+    }
 }
 ```
 
