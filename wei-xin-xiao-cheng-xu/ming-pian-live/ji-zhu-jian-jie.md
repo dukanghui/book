@@ -172,3 +172,9 @@ addcards: function(e) {
 
 
 
+### 页面跳转方法
+
+1,wx.switchTab\({url: }\)
+
+
+
