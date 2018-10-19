@@ -134,7 +134,7 @@ App({                               // 小程序实列
 ```
 wx.getUserInfo({
             success: function(res) {
-              that.globalData.userImage = res.userInfo.avatarUrl
+              console.log(res)
             }
           })
 ```
