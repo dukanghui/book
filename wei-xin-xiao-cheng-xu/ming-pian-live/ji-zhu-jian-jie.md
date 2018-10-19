@@ -243,8 +243,7 @@ wx.navigateBack({
 ```
 
 * ### 分享小程序
-
-1. ##### 使用button组件（点击转发）
+* ##### 使用button组件（点击转发）
 
 通过给`button`组件设置属性`open-type="share"`，可以在用户点击按钮后触发[`Page.onShareAppMessage`](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html#onshareappmessageobject)事件，如果当前页面没有定义此事件，则点击后无效果。
 
@@ -296,9 +295,26 @@ onShareAppMessage: function (a) {
       fail: function (res) {
         console.log(res)
       }
-    }
-  }
+      }
 ```
+
+* ### 打开另一个小程序
+
+```
+// JS文件里
+wx.navigateToMiniProgram({
+    appId: "",                  // 目标小程序appid
+    path: ""                    // 目标小程序页面路径，默认首页
+})
+```
+
+或者
+
+```
+<navigator target="miniProgram" open-type="navigate" app-id="" path="" extra-data="" version="release">打开绑定的小程序</navigator>
+```
+
+
 
 
 
