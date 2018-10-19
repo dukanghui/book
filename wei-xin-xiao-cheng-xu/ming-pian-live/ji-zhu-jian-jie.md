@@ -88,9 +88,9 @@ App({                               // 小程序实列
         "newFeature": true
     },
     "compileType": "miniprogram",                     // 编译类型（小程序）
-    "libVersion": "2.2.3",
-    "appid": "",
-    "projectname": "%E5%90%8D%E7%89%87Live",
+    "libVersion": "2.2.3",                            // 版本基础库（用户版本低于基础库 会提示更新微信）
+    "appid": "",                                      
+    "projectname": "%E5%90%8D%E7%89%87Live",          // 项目名称
     "isGameTourist": false,
     "condition": {
         "search": {
@@ -111,7 +111,7 @@ App({                               // 小程序实列
         },
         "miniprogram": {
             "current": 0,
-            "list": [
+            "list": [                         // 自定义打开小程序页面（调试）
                 {
                     "id": 0,
                     "name": "peerscards",
