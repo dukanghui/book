@@ -133,10 +133,19 @@ App({                               // 小程序实列
 
 ```
 wx.getUserInfo({
-            success: function(res) {
-              console.log(res)
-            }
-          })
+     success: function(res) {
+         console.log(res)
+     }
+})
+// 返回值res
+ {errMsg: "getUserInfo:ok", rawData: "{"nickName":"😂😂😂😂😂😂😂😂","gender":1,"languag…fBvkVhEiapJSFiagpibXlr9dlnLCtGjbhv31BVMuRUg/132"}", userInfo: {…}, signature: "abeadd633f84ba29c8d461fe95ef67993820931f", encryptedData: "OGfWACsNLNFSAXrvD1wseEgEJFGnKP3WxvUzMrTde1n9v54hSr…QuLu5tyKBeaUHiRo1C0mRuq5yTKD7BcwCsYIH+XkA6H3fB8cr", …}
+encryptedData:"OGfWACsNLNFSAXrvD1wseEgEJFGnKP3WxvUzMrTde1n9v54hSrChK3l8RrNpM7usGisTrmXkZD52f0Ga7hsHfU1BPP3/dCBMju8awSDyQFP4Dr8j8xC9WRVlGMKDt+EaA7Oar05DfH/frjej9JJKdwJrAr4jhnJmJONleJxLJWnJ7XdTSXT+Opu7eG6izorRMQdHKK1w70UtfZIDClUD9jXJMNm/CGEVxtMKgmGVxhdVt5QgKfdcuXXPTWhHAdP7+Gmz1KFGi9p9g1f3fpN1tUcHZanKbJLyipofyuJYJCMJU2pAqCcN3mvnObnGAYPd8hwef9KPRRu1M6feHcs39aM9VR43vKF+qYzXVeAnKRZGhorYdoXHuNsrJ4JyYdhdhalo7ArA2t+kS8chq2+ZIIQ5qgmzRB+WfCgg+oqG1pq2MzelrdAZDHRSDwSVFr758nq2Qr7zkLyQmWDQuLu5tyKBeaUHiRo1C0mRuq5yTKD7BcwCsYIH+XkA6H3fB8cr"
+errMsg:"getUserInfo:ok"
+iv:"3cdUvgDwzhm3JW8v/u2K8w=="
+rawData:
+"{"nickName":"😂😂😂😂😂😂😂😂","gender":1,"language":"zh_CN","city":"Fangshan","province":"Beijing","country":"China","avatarUrl":"https://wx.qlogo.cn/mmopen/vi_32/Q0j4TwGTfTL50AV50HChZskh80HxCDBNS0WiaBx3MibBFE19fBvkVhEiapJSFiagpibXlr9dlnLCtGjbhv31BVMuRUg/132"}"
+signature:"abeadd633f84ba29c8d461fe95ef67993820931f"
+userInfo:{nickName: "😂😂😂😂😂😂😂😂", gender: 1, language: "zh_CN", city: "Fangshan", province: "Beijing", …}
 ```
 
 
