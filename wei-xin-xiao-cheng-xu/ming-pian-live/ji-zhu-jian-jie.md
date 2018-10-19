@@ -179,8 +179,7 @@ addcards: function(e) {
 ```
 
 * ### 页面跳转方法
-
-1. ##### wx.switchTab\({url: ""}\) 只能跳转到Tab页面（定义的TabBar页面）
+* ##### wx.switchTab\({url: ""}\) 只能跳转到Tab页面（定义的TabBar页面）
 
 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
 
@@ -252,12 +251,36 @@ wx.navigateBack({
 ```
 // wxml 文件里写
 <button class="footer-btn" open-type='share'>发送本张名片</button>
+
+
+// 对应的JS文件里
+onload(){
+  wx.showShareMenu({                         // 这个可以不用写（写了这个，用户转发到群的时候会携带ShareTicket，开发者可以用来获取群ID）
+      withShareTicket: true
+  })
+},
+onShareAppMessage: function (a) {
+    let that = this
+    return {
+      title: '我的名片信息',                                    // 转发的标题
+      path: '/pages/peerscards/peerscards?othercardid=' + that.data.id, // 转发后点击进来的页面
+      imageUrl: 'images/test.png',                          // 自定义转发图片（宽高比例是5:4）,不选择是默认选择当前页面的80%大小的截图
+      success: function (res) {
+        console.log(res)
+      },
+      fail: function (res) {
+        console.log(res)
+      }
+    }
+  }
 ```
+
+##### 2. 右上角菜单的转发
 
 ```
 // 对应的JS文件里
 onload(){
-  wx.showShareMenu({
+  wx.showShareMenu({           // 这个可以不用写（写了这个，用户转发到群的时候会携带ShareTicket，开发者可以用来获取群ID）
       withShareTicket: true
   })
 },
