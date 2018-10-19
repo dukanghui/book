@@ -147,6 +147,10 @@ Page({
 })
 ```
 
+更多关于页面注册：
+
+
+
 ## 相关文档 {#_5}
 
 * [https://developers.weixin.qq.com/miniprogram/dev/component/](https://developers.weixin.qq.com/miniprogram/dev/component/)
