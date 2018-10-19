@@ -1,4 +1,4 @@
-# 申请账号
+# 申请账号1
 
 点击[https://mp.weixin.qq.com/wxopen/waregister?action=step1](/ https://mp.weixin.qq.com/wxopen/waregister?action=step1)根据指引填写信息和提交相应的资料，就可以拥有自己的小程序帐号。![](/assets/1539823971%281%29.png)登录[https://mp.weixin.qq.com](https://mp.weixin.qq.com)，我们可以在菜单 “设置”-“开发设置” 看到小程序的**AppID和AppSecret**了 。
 
