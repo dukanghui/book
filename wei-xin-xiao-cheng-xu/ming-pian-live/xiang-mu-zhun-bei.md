@@ -149,6 +149,26 @@ Page({
 
 更多关于页面注册：
 
+[https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html)
+
+### 组件
+
+小程序提供了丰富的基础组件给开发者，开发者可以像搭积木一样，组合各种组件拼合成自己的小程序。
+
+组件参考：
+
+[https://developers.weixin.qq.com/miniprogram/dev/component/](https://developers.weixin.qq.com/miniprogram/dev/component/)
+
+### API
+
+为了让开发者可以很方便的调起微信提供的能力，例如获取用户信息、微信支付等等，小程序提供了很多 API 给开发者去使用。
+
+API参考：
+
+[https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/api.html](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/api.html)
+
+[https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html](https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html)
+
 ## 相关文档 {\#\_5}
 
 * [https://developers.weixin.qq.com/miniprogram/dev/component/](https://developers.weixin.qq.com/miniprogram/dev/component/)
