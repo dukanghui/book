@@ -174,6 +174,8 @@ addcards: function(e) {
 
 ##### 1,wx.switchTab\({url: ""}\) 只能跳转到Tab页面（定义的TabBar页面）
 
+跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
+
 ```
 // app.json
 {
@@ -189,7 +191,17 @@ addcards: function(e) {
 }
 // 对应的JS文件
 wx.switchTab({
-  url: '/index'
+  url: '/index'    // 必须是tabbar对应的页面（路径可以是相对路径，可以是绝对路径）
+})
+```
+
+##### 2,wx.redirectTo\({url: ""}\)
+
+关闭当前页面，跳转到应用内的某个页面，但是不允许跳转到 tabbar 页面。
+
+```
+wx.redirectTo({
+  url: '/index'    // 必须是非tabbar对应的页面（路径可以是相对路径，可以是绝对路径）
 })
 ```
 
