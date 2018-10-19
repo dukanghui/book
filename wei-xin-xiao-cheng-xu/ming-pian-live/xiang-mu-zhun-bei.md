@@ -28,22 +28,10 @@
 
 # 小程序代码构成
 
-1. `.json`
-   后缀的
-   `JSON`
-   配置文件
-2. `.wxml`
-   后缀的
-   `WXML`
-   模板文件
-3. `.wxss`
-   后缀的
-   `WXSS`
-   样式文件
-4. `.js`
-   后缀的
-   `JS`
-   脚本逻辑文件
+1. `.json`后缀的`JSON`配置文件
+2. `.wxml`后缀的`WXML`模板文件
+3. `.wxss`后缀的`WXSS`样式文件
+4. `.js`后缀的`JS`脚本逻辑文件
 
 ### JSON文件
 
@@ -68,7 +56,6 @@ json文件分为三个
     "navigationBarTextStyle":"black"
   }
 }
-
 ```
 
 其他配置可以查看[https://developers.weixin.qq.com/miniprogram/dev/framework/config.html](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html)
@@ -85,7 +72,7 @@ json文件分为三个
 
 其他配置项细节可以参考文档
 
-[https://developers.weixin.qq.com/miniprogram/dev/framework/config.html\#%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html#%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE)
+[https://developers.weixin.qq.com/miniprogram/dev/framework/config.html\#%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html#页面配置)
 
 ### wxml文件
 
@@ -127,7 +114,6 @@ js文件主要用来实现交互逻辑。数据可以用this.setData\({test: "he
     "pages/findmore/findmore",
     "pages/otherpeers/otherpeers"
   ],
-
 ```
 
 小程序启动之后，在`app.js`定义的`App`实例的`onLaunch`回调会被执行:
@@ -138,7 +124,6 @@ App({
     // 小程序启动之后 触发
   }
 })
-
 ```
 
 整个小程序只有一个 App 实例，是全部页面共享的。
@@ -160,7 +145,6 @@ Page({
         // 页面渲染后执行，执行完要是有数据改变用setData({}) 进行数据设置
   }
 })
-
 ```
 
 更多关于页面注册：
