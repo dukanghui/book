@@ -87,9 +87,9 @@ App({                               // 小程序实列
         "minified": true,                             // 上传代码时自动压缩
         "newFeature": true
     },
-    "compileType": "miniprogram",
+    "compileType": "miniprogram",                     // 编译类型（小程序）
     "libVersion": "2.2.3",
-    "appid": "wxfc199cc3814a06ec",
+    "appid": "",
     "projectname": "%E5%90%8D%E7%89%87Live",
     "isGameTourist": false,
     "condition": {
