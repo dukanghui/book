@@ -1,5 +1,7 @@
 # 小程序app.json 配置
 
+---
+
 ```
 {
   "pages": [                               // 小程序所有页面定义
@@ -58,6 +60,8 @@
 
 # 小程序App.js配置
 
+---
+
 ```
 App({                               // 小程序实列
   globalData: {                     // 小程序全局变量集合
@@ -73,6 +77,8 @@ App({                               // 小程序实列
 ```
 
 # 小程序project.config.json配置
+
+---
 
 ```
 {
@@ -127,7 +133,9 @@ App({                               // 小程序实列
 
 # 用到的API整理
 
-### 获取用户信息wx.getUserInfo
+---
+
+* ### 获取用户信息wx.getUserInfo
 
 ##### 直接在小程序JS调用（只能获取已经授权过的用户信息，没有授过权就跳过）
 
@@ -148,7 +156,7 @@ signature:"abeadd633f84ba29c8d461fe95ef67993820931f"
 userInfo:{nickName: "😂😂😂😂😂😂😂😂", gender: 1, language: "zh_CN", city: "Fangshan", province: "Beijing", …}
 ```
 
-### 用户信息授权确认button组件
+* ### 用户信息授权确认button组件
 
 需要在wxml页面里写
 
@@ -170,9 +178,9 @@ addcards: function(e) {
   }
 ```
 
-### 页面跳转方法
+* ### 页面跳转方法
 
-##### 1,wx.switchTab\({url: ""}\) 只能跳转到Tab页面（定义的TabBar页面）
+1. ##### wx.switchTab\({url: ""}\) 只能跳转到Tab页面（定义的TabBar页面）
 
 跳转到 tabBar 页面，并关闭其他所有非 tabBar 页面
 
@@ -233,6 +241,40 @@ wx.navigateTo({
 wx.navigateBack({
     delta: 2           // delta必须是整数 后退几个页面
 })
+```
+
+* ### 分享小程序
+
+1. ##### 使用button组件（点击转发）
+
+通过给`button`组件设置属性`open-type="share"`，可以在用户点击按钮后触发[`Page.onShareAppMessage`](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/page.html#onshareappmessageobject)事件，如果当前页面没有定义此事件，则点击后无效果。
+
+```
+// wxml 文件里写
+<button class="footer-btn" open-type='share'>发送本张名片</button>
+```
+
+```
+// 对应的JS文件里
+onload(){
+  wx.showShareMenu({
+      withShareTicket: true
+  })
+},
+onShareAppMessage: function (a) {
+    let that = this
+    return {
+      title: '我的名片信息',                                    // 转发的标题
+      path: '/pages/peerscards/peerscards?othercardid=' + that.data.id, // 转发后点击进来的页面
+      imageUrl: 'images/test.png',                          // 自定义转发图片（宽高比例是5:4）,不选择是默认选择当前页面的80%大小的截图
+      success: function (res) {
+        console.log(res)
+      },
+      fail: function (res) {
+        console.log(res)
+      }
+    }
+  }
 ```
 
 
