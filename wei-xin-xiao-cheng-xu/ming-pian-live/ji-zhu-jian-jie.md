@@ -170,11 +170,28 @@ addcards: function(e) {
   }
 ```
 
-
-
 ### 页面跳转方法
 
-1,wx.switchTab\({url: }\)
+##### 1,wx.switchTab\({url: ""}\) 只能跳转到Tab页面（定义的TabBar页面）
+
+```
+// app.json
+{
+  "tabBar": {
+    "list": [{
+      "pagePath": "index",
+      "text": "首页"
+    },{
+      "pagePath": "other",
+      "text": "其他"
+    }]
+  }
+}
+// 对应的JS文件
+wx.switchTab({
+  url: '/index'
+})
+```
 
 
 
