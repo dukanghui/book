@@ -215,5 +215,15 @@ wx.reLaunch({
 })
 ```
 
+##### 4,wx.navigateTo\({url: ""}\)
+
+保留当前页面，跳转到应用内的某个页面，但是不能跳到 tabbar 页面。使用[wx.navigateBack](https://developers.weixin.qq.com/miniprogram/dev/api/route/wx.navigateBack.html)可以返回到原页面。
+
+```
+wx.navigateTo({
+  url: '/index'    // 必须是非tabbar对应的页面（路径可以是相对路径，可以是绝对路径）
+})
+```
+
 
 
