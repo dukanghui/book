@@ -32,7 +32,7 @@
     "selectedColor": "#2C7FE7",                // 底部导航栏选择时的颜色
     "backgroundColor": "#ffffff",              // 底部导航栏背景颜色
     "borderStyle": "#D8D8D8",                  // 底部导航栏上面的线
-    "list": [                                  // 底部导航栏集合（2~5个）
+    "list": [                                  // 底部导航栏集合（只能2~5个）
       {
         "pagePath": "pages/findmore/findmore",  // 底部导航栏页面路径
         "text": "名片夹",                        // 底部导航栏名字
@@ -53,6 +53,75 @@
       }
     ]
   }
+}
+```
+
+# 小程序App.js配置
+
+```
+App({                               // 小程序实列
+  globalData: {                     // 小程序全局变量集合
+    log:[]          
+  },
+  onLaunch: function(ops) {         // 小程序加载时运行的函数 可以在ops里获取到一些参数（用户场景值，群参数等等）
+    // 逻辑
+  },
+  onShow: function(ops) {           // 页面刷新函数（有一些函数是在 onlaunch 获取不到的可以在这里处理）
+    // 逻辑
+  }
+})
+```
+
+# 小程序project.config.json配置
+
+```
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.2.3",
+	"appid": "wxfc199cc3814a06ec",
+	"projectname": "%E5%90%8D%E7%89%87Live",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": 0,
+					"name": "peerscards",
+					"pathName": "pages/company/company",
+					"query": "othercardid=76",
+					"scene": "1001"
+				}
+			]
+		}
+	}
 }
 ```
 
