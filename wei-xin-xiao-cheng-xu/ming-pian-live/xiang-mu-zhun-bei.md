@@ -100,9 +100,21 @@ js文件主要用来实现交互逻辑。数据可以用this.setData\({test: "he
 
 [https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html)
 
-[https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html](https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html)
+[https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.htm](https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html)
 
+# 小程序启动
 
+微信客户端在打开小程序之前，会把整个小程序的代码包下载到本地。
+
+然后通过app.json的pages，加载第一个页面为首页
+
+```
+"pages": [                         // 这里pages/mine/mine 为首页
+    "pages/mine/mine",    
+    "pages/findmore/findmore",
+    "pages/otherpeers/otherpeers"
+  ],
+```
 
 ## 相关文档 {#_5}
 
