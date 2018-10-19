@@ -44,13 +44,39 @@ json文件分为三个
 
 其他配置项细节可以参考文档
 
-[https://developers.weixin.qq.com/miniprogram/dev/framework/config.html\#%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html#%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE)
+[https://developers.weixin.qq.com/miniprogram/dev/framework/config.html\#%E9%A1%B5%E9%9D%A2%E9%85%8D%E7%BD%AE](https://developers.weixin.qq.com/miniprogram/dev/framework/config.html#页面配置)
 
 ### wxml文件
 
-`WXML`由标签、属性等等构成。
+`WXML`由标签、属性等等构成，是显示页面，作用与html相似。
+
+参考文档：
 
 [https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/index.html](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/index.html)
+
+
+
+### wxss文件
+
+`WXSS`具有`CSS`大部分的特性，小程序在`WXSS`也做了一些扩充和修改，额外增加了rpx单位，比起px，是自动根据用户设备来变换的，不需要开发者根据不同的屏幕尺寸做计算。
+
+参考文档：
+
+[https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxss.html)
+
+
+
+### JS文件
+
+js文件主要用来实现交互逻辑。数据可以用this.setData\({test: "helle word!"}\)，this代表当前页面实列，微信也提供了丰富的API
+
+,可以在js里边引用。
+
+参考文档：
+
+[https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html](https://developers.weixin.qq.com/miniprogram/dev/framework/view/wxml/event.html)
+
+[https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html](https://developers.weixin.qq.com/miniprogram/dev/api/network/download/wx.downloadFile.html)
 
 
 
