@@ -116,6 +116,37 @@ js文件主要用来实现交互逻辑。数据可以用this.setData\({test: "he
   ],
 ```
 
+小程序启动之后，在`app.js`定义的`App`实例的`onLaunch`回调会被执行:
+
+```
+App({
+  onLaunch: function () {
+    // 小程序启动之后 触发
+  }
+})
+```
+
+整个小程序只有一个 App 实例，是全部页面共享的。
+
+更多关于注册app.js：
+
+[https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/app.html](https://developers.weixin.qq.com/miniprogram/dev/framework/app-service/app.html)
+
+# 程序和页面
+
+程序启动完，加载页面的时候，会率先加载的.json 文件渲染顶部栏文字跟颜色，再加载 wxml和wxss渲染页面，最后加载 js文件运行逻辑。
+
+```
+Page({
+  data: {                // 参与页面渲染的数据，会率先用data的默认数据渲染页面   
+    logs: []
+  },
+  onLoad: function () {
+        // 页面渲染后执行，执行完要是有数据改变用setData({}) 进行数据设置
+  }
+})
+```
+
 ## 相关文档 {#_5}
 
 * [https://developers.weixin.qq.com/miniprogram/dev/component/](https://developers.weixin.qq.com/miniprogram/dev/component/)
